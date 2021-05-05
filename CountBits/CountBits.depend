@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1620223165 source:d:\elektronik\c examples\countbits\main.c
+	<stdio.h>
+
