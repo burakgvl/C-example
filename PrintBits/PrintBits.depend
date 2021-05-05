@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620212971 source:d:\elektronik\c examples\printbits\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -35,8 +35,8 @@ void BubbleSort(int* arr, size_t size){
 
 
 
-int main(int argc, char *argv[]) {
-	
+int main() {
+
 	int dizi[8] = {12,4,6,9,43,56,78,61};
 	SelectionSort(dizi,SizeArr(dizi));
 	int j;

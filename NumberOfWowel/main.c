@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* Girilen cümlede sesli harf sayýsýný bulan fonksiyon*/
 int NumberOfWowel(){
 	int ch;
 	int count;
@@ -11,12 +11,11 @@ int NumberOfWowel(){
 				++count;
 				break;
 			default:
-				break;		
-	}	
+				break;
+	}
 	}
 	printf("%d",count);
 }
-
 
 int main(int argc, char *argv[]) {
 	NumberOfWowel();

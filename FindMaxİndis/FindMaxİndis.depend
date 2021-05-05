@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620212147 source:d:\elektronik\c examples\findmax›ndis\main.c
+	<stdio.h>
+	<stdlib.h>
+

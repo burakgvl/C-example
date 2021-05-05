@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620214453 source:d:\elektronik\c examples\findsecondmax\main.c
+	<stdio.h>
+	<stdlib.h>
+

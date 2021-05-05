@@ -17,17 +17,18 @@ int* CreateDynamicArray(size_t n){
 	}
 	return pd;
 }
- 
+
+void PrintArray(int* array,size_t size){
+	int i = 0;
+	for(; i<size; i++){
+		printf("Array = %d\n",array[i]);
+	}
+}
 
 
 int main(int argc, char *argv[]) {
 	int *dizi = CreateDynamicArray(ARRAY_SIZE);
-	int i = 0;
-	for(i = 0; i<ARRAY_SIZE; i++)
-	{
-	printf("Dizi: %d\n",*(dizi+i));
-	}
+    PrintArray(dizi,ARRAY_SIZE);
 	free(dizi);
-	
 	return 0;
 }
