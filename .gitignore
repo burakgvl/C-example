@@ -1,0 +1,6 @@
+*.dev
+*.o
+*.layout
+*.txt
+*.exe
+*.cpp
